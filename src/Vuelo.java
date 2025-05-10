@@ -39,5 +39,9 @@ public class Vuelo {
     public String getNumeroVuelo() {
         return numeroVuelo;
     }
+    public List<Puesto> getPuestos() {
+        return puestos;
+    }
+    
 }
 
