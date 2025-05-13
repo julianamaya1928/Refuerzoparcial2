@@ -28,7 +28,7 @@ public class Aeropuerto {
                 return vuelo.reservarPuesto(idPuesto, idPasajero);
             }
         }
-        return false;
+        return true;
     }
 
     public void contarPuestosPorVuelo() {
